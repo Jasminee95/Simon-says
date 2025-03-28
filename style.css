@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    color: white;
+    text-align: center;
+}
+
+.box{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+.highlight {
+    opacity: 0.5;
+}
